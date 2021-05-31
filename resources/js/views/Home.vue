@@ -1,10 +1,13 @@
 <template>
-  <div>
-      Welcome home!
-  </div>
+  <Canvas>
+  </Canvas>
 </template>
 <script>
+import Canvas from '../components/Canvas.vue'
+
 export default {
-  computed: {},
+    components: {
+        Canvas
+    }
 };
 </script>
